@@ -1,6 +1,6 @@
 let col = 0
 let row = 0
-basic.showIcon(IconNames.Yes)
+basic.showIcon(IconNames.Ghost)
 basic.forever(function () {
     for (let index = 0; index < 4; index++) {
         if (input.soundLevel() > 128) {
